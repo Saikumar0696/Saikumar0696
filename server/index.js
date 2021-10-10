@@ -7,11 +7,9 @@ const connection = require("./DatabaseConnection/dbconnect");
 const { sellerrouter } = require("./routes/seller");
 const { customerrouter } = require("./routes/customerrouter");
 const { locationrouter } = require("./routes/locationrouter");
-var ip = "http://127.0.0.1:3000";
+var ip = "18.233.99.202";
 
-app.use(
-  cors({ origin: [`${ip}`, "http://localhost:3000"], credentials: true })
-);
+app.use(cors({ origin: [`${ip}:3000`], credentials: true }));
 
 app.use(express.json());
 
