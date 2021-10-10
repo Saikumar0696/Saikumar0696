@@ -1,3 +1,3 @@
-export const baseurl = "http://127.0.0.1:3001";
+export const baseurl = "18.233.99.202:3001";
 
 export default baseurl;
