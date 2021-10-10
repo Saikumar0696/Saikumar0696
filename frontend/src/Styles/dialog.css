@@ -1,0 +1,20 @@
+.Modal {
+  position: absolute;
+  top: 250px;
+  bottom: 200px;
+  left: 600px;
+  background-color: cadetblue;
+  width: 400px;
+  height: 200px;
+  border-radius: 4%;
+}
+.modalbtn {
+  position: absolute;
+  top: 130px;
+  width: fit-content;
+}
+
+.dishbtn {
+  width: fit-content;
+  margin: 0px 25px;
+}
