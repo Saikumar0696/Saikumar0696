@@ -9,7 +9,7 @@ const { customerrouter } = require("./routes/customerrouter");
 const { locationrouter } = require("./routes/locationrouter");
 var ip = "18.233.99.202";
 
-app.use(cors({ origin: [`${ip}:3000`], credentials: true }));
+app.use(cors({ origin: [`http://${ip}:3000`], credentials: true }));
 
 app.use(express.json());
 
