@@ -1,9 +1,9 @@
 var databaseOptions = {
-  host: "ubereats.cxz6a21rgeds.us-east-1.rds.amazonaws.com",
-  database: "ubereats",
-  user: "admin",
-  password: "Chskr123",
-  port: "3306",
+  host: "Provide your host name",
+  database: "Provide your database name",
+  user: "Provide your username",
+  password: "provide your password",
+  port: "provide port name",
   multipleStatements: true,
 };
 
